@@ -3,7 +3,7 @@ Summary:	Math-Units perl module
 Summary(pl):	Modu³ perla Math-Units
 Name:		perl-Math-Units
 Version:	1.2
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
