@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Units
-Summary:	Math::Units perl module
-Summary(pl):	Modu³ perla Math::Units
+Summary:	Math::Units - Unit conversion
 Name:		perl-Math-Units
 Version:	1.2
 Release:	8
@@ -15,10 +14,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math::Units perl module.
-
-%description -l pl
-Modu³ perla Math::Units.
+The Math::Units module converts a numeric value in one unit of measurement
+to some other unit.  The units must be compatible, i.e. length can not
+be converted to volume.  If a conversion can not be made an exception
+is thrown.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
