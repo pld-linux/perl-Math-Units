@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Units
-Summary:	Math-Units perl module
-Summary(pl):	Modu³ perla Math-Units
+Summary:	Math::Units perl module
+Summary(pl):	Modu³ perla Math::Units
 Name:		perl-Math-Units
 Version:	1.2
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Units perl module.
+Math::Units perl module.
 
 %description -l pl
-Modu³ perla Math-Units.
+Modu³ perla Math::Units.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
