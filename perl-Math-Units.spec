@@ -6,7 +6,7 @@ Summary(pl):	Modu³ Perla Math::Units - przelicznie jednostek
 Name:		perl-Math-Units
 Version:	1.2
 Release:	11
-License:	GPL
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5089d07f2042c567759d1c761c40dd98
