@@ -5,12 +5,12 @@ Summary:	Math::Units Perl module - Unit conversion
 Summary(pl):	Modu³ Perla Math::Units - przeliczaj±cy jednostki
 Name:		perl-Math-Units
 Version:	1.2
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +30,8 @@ rzucany jest wyj±tek.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -44,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README TODO examples/convert.pl
-%{perl_sitelib}/Math/Units.pm
+%{perl_vendorlib}/Math/Units.pm
 %{_mandir}/man3/*
