@@ -2,7 +2,7 @@
 %define		pdir	Math
 %define		pnam	Units
 Summary:	Math::Units Perl module - unit conversion
-Summary(pl):	Modu³ Perla Math::Units - przelicznie jednostek
+Summary(pl.UTF-8):   ModuÅ‚ Perla Math::Units - przelicznie jednostek
 Name:		perl-Math-Units
 Version:	1.2
 Release:	12
@@ -21,11 +21,11 @@ measurement to some other unit. The units must be compatible, i.e.
 length can not be converted to volume. If a conversion can not be made
 an exception is thrown.
 
-%description -l pl
-Modu³ Math::Units przelicza warto¶ci numeryczne z jednej jednostki
-miary na inn±. Jednostki musz± byæ zgodne, tzn. d³ugo¶æ nie mo¿e byæ
-przeliczona na objêto¶æ. Je¶li konwersja nie mo¿e zostaæ wykonana,
-rzucany jest wyj±tek.
+%description -l pl.UTF-8
+ModuÅ‚ Math::Units przelicza wartoÅ›ci numeryczne z jednej jednostki
+miary na innÄ…. Jednostki muszÄ… byÄ‡ zgodne, tzn. dÅ‚ugoÅ›Ä‡ nie moÅ¼e byÄ‡
+przeliczona na objÄ™toÅ›Ä‡. JeÅ›li konwersja nie moÅ¼e zostaÄ‡ wykonana,
+rzucany jest wyjÄ…tek.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
