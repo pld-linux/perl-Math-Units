@@ -2,7 +2,7 @@
 %define		pdir	Math
 %define		pnam	Units
 Summary:	Math::Units Perl module - unit conversion
-Summary(pl.UTF-8):   Moduł Perla Math::Units - przelicznie jednostek
+Summary(pl.UTF-8):	Moduł Perla Math::Units - przelicznie jednostek
 Name:		perl-Math-Units
 Version:	1.2
 Release:	12
