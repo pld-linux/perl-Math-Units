@@ -5,7 +5,7 @@ Summary:	Math::Units Perl module - unit conversion
 Summary(pl.UTF-8):	Moduł Perla Math::Units - przelicznie jednostek
 Name:		perl-Math-Units
 Version:	1.2
-Release:	12
+Release:	13
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
