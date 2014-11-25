@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	Units
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Units Perl module - unit conversion
 Summary(pl.UTF-8):	Moduł Perla Math::Units - przelicznie jednostek
 Name:		perl-Math-Units
@@ -10,6 +10,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3674c769147eacdc0d22957d8288c104
+URL:		http://search.cpan.org/dist/Math-Units/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
