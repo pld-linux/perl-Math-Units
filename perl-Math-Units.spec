@@ -1,6 +1,5 @@
 %define		pdir	Math
 %define		pnam	Units
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Units Perl module - unit conversion
 Summary(pl.UTF-8):	Moduł Perla Math::Units - przelicznie jednostek
 Name:		perl-Math-Units
